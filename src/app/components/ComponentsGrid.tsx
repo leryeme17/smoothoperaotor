@@ -8,57 +8,57 @@ const components = [
     icon: Cpu,
     image: '/images/1.jpg', // Add your image path here
     name: 'Microcontroller',
-    description: 'Arduino Uno/Nano',
-    details: 'ATmega328P processor for real-time control'
+    description: 'ESP32 Development Board',
+    details: 'Recognizable by dual USB-C ports and pin labels, main microcontroller'
   },
   {
     icon: Eye,
     image: '/images/2.jpg', // Add your image path here
-    name: 'IR Sensors',
-    description: '8x Line Sensors',
-    details: 'High-precision infrared sensor array'
+    name: 'DC-DC Buck Converter',
+    description: 'Buck Converter (LM2596 type)',
+    details: 'Used to step down battery voltage'
   },
   {
     icon: Cog,
     image: '/images/3.webp', // Add your image path here
-    name: 'DC Motors',
-    description: '2x Geared Motors',
-    details: '100-300 RPM with high torque output'
+    name: 'MOTOR Driver',
+    description: 'Motor driver module (L293D type)',
+    details: 'Controls the DC motors'
   },
   {
     icon: CircuitBoard,
     image: '/images/4.webp', // Add your image path here
-    name: 'Motor Driver',
-    description: 'L298N H-Bridge',
-    details: 'Dual channel motor speed control'
+    name: 'Batteries',
+    description: '3 × 18650 Li-ion batteries',
+    details: 'connected in series, 2500mAh'
   },
   {
     icon: Battery,
     image: '/images/5.webp', // Add your image path here
-    name: 'Power Supply',
-    description: 'Li-Po Battery',
-    details: '7.4V 2200mAh rechargeable'
+    name: 'Battery Holder',
+    description: '18650 Battery holder',
+    details: 'for holding batteries on the chassis'
   },
   {
     icon: Gauge,
     image: '/images/6.jpg', // Add your image path here
-    name: 'Encoders',
-    description: 'Wheel Encoders',
-    details: 'Precise speed and distance tracking'
+    name: 'DC motors',
+    description: '2 × DC gear motors (TT motors)',
+    details: 'Yellow gearbox style motors to control wheels'
   },
   {
     icon: Wifi,
     image: '/images/7.webp', // Add your image path here
-    name: 'Communication',
-    description: 'Bluetooth Module',
-    details: 'Wireless debugging and tuning'
+    name: 'Chasis',
+    description: 'Robot car chassis',
+    details: 'laser-cut frame'
   },
   {
     icon: Zap,
-    image: '/images/8.jpg', // Add your image path here
-    name: 'PID Controller',
-    description: 'Software Algorithm',
-    details: 'Tuned feedback control system'
+    image: '/images/images.jpg', // Add your image path here
+    name: 'Line sensor',
+    description: 'QTR-8RC Reflectance Sensor',
+    details: '8 IR LED/phototransistor pairs, making it a great detector for a line-following robots.'
   }
 ];
 

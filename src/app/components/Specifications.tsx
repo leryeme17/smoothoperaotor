@@ -5,22 +5,22 @@ const specs = [
   {
     icon: Ruler,
     label: 'Dimensions',
-    value: '20 × 15 × 10 cm'
+    value: '22 × 20 × 12 cm'
   },
   {
     icon: Weight,
     label: 'Weight',
-    value: '850 grams'
+    value: '~ 500g'
   },
   {
     icon: Zap,
     label: 'Operating Voltage',
-    value: '7.4V DC'
+    value: '11.1V nominal'
   },
   {
     icon: Gauge,
     label: 'Max Speed',
-    value: '150 cm/s'
+    value: '~ 0.5 – 0.9 m/s'
   }
 ];
 
@@ -53,7 +53,7 @@ export function Specifications() {
         <div className="mt-6 pt-6 border-t border-red-900 space-y-3">
           <div className="flex justify-between items-center">
             <span className="text-gray-400">Track Width Range</span>
-            <span className="text-white">1.5 - 3 cm</span>
+            <span className="text-white">1.5 – 3 cm between sensors</span>
           </div>
           <div className="flex justify-between items-center">
             <span className="text-gray-400">Turn Radius</span>
@@ -65,7 +65,7 @@ export function Specifications() {
           </div>
           <div className="flex justify-between items-center">
             <span className="text-gray-400">Sensor Range</span>
-            <span className="text-white">0.5 - 1.5 cm</span>
+            <span className="text-white">0.5 – 2 cm from surface</span>
           </div>
         </div>
       </CardContent>

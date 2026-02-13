@@ -52,7 +52,7 @@ export function RobotHero() {
           <div className="relative">
             <div className="absolute inset-0 bg-red-600/20 rounded-xl blur-3xl"></div>
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1657394404806-0c3f21742882?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb2JvdCUyMGxpbmUlMjBmb2xsb3dlciUyMHJhY2V8ZW58MXx8fHwxNzcwOTQwMTE1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src="/images/main.jpg"
               alt="Smooth Operator Robot"
               className="relative w-full h-[400px] object-cover rounded-xl shadow-2xl border-2 border-red-900/50"
             />
