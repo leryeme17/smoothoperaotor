@@ -4,6 +4,7 @@ import { ComponentsGrid } from './components/ComponentsGrid';
 import { Specifications } from './components/Specifications';
 import { PerformanceMetrics } from './components/PerformanceMetrics';
 import { AnimatedBackground } from './components/AnimatedBackground';
+import { SoftwareTech } from './components/SoftwareTech';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
             <Specifications />
             <PerformanceMetrics />
           </div>
+            <SoftwareTech />
         </main>
       </div>
     </div>
