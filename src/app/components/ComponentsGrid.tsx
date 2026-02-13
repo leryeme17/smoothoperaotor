@@ -6,51 +6,56 @@ import { useState } from 'react';
 const components = [
   {
     icon: Cpu,
-    image: '/images/1.jpg',
+    image: '/images/1.jpg', // Add your image path here
     name: 'Microcontroller',
     description: 'Arduino Uno/Nano',
     details: 'ATmega328P processor for real-time control'
   },
   {
     icon: Eye,
+    image: '/images/2.jpg', // Add your image path here
     name: 'IR Sensors',
-    image: '/images/2.webp',
     description: '8x Line Sensors',
     details: 'High-precision infrared sensor array'
   },
   {
     icon: Cog,
+    image: '/images/3.webp', // Add your image path here
     name: 'DC Motors',
-    image: '/images/3.jpg',
     description: '2x Geared Motors',
     details: '100-300 RPM with high torque output'
   },
   {
     icon: CircuitBoard,
+    image: '/images/4.webp', // Add your image path here
     name: 'Motor Driver',
     description: 'L298N H-Bridge',
     details: 'Dual channel motor speed control'
   },
   {
     icon: Battery,
+    image: '/images/5.webp', // Add your image path here
     name: 'Power Supply',
     description: 'Li-Po Battery',
     details: '7.4V 2200mAh rechargeable'
   },
   {
     icon: Gauge,
+    image: '/images/6.jpg', // Add your image path here
     name: 'Encoders',
     description: 'Wheel Encoders',
     details: 'Precise speed and distance tracking'
   },
   {
     icon: Wifi,
+    image: '/images/7.webp', // Add your image path here
     name: 'Communication',
     description: 'Bluetooth Module',
     details: 'Wireless debugging and tuning'
   },
   {
     icon: Zap,
+    image: '/images/8.jpg', // Add your image path here
     name: 'PID Controller',
     description: 'Software Algorithm',
     details: 'Tuned feedback control system'
@@ -88,7 +93,7 @@ export function ComponentsGrid() {
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
         {components.map((component) => {
           const Icon = component.icon;
-          const hasImage = componentImages[component.name];
+          const hasImage = componentImages[component.name] || component.image;
           
           return (
             <Card
