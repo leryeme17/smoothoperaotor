@@ -30,7 +30,7 @@ export function RobotHero() {
             <p className="text-gray-300 leading-relaxed">
               Meet Smooth Operator, an advanced autonomous line-following robot designed for competitive racing. 
               Equipped with cutting-edge sensors and optimized algorithms, it navigates black line tracks with 
-              exceptional speed and accuracy.
+              exceptional speed and accuracy mainly made for F-AST competition at national higher school of autonomous systems.
             </p>
 
             <div className="grid grid-cols-3 gap-4 pt-4">

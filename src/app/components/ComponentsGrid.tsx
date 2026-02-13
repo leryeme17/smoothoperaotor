@@ -6,6 +6,7 @@ import { useState } from 'react';
 const components = [
   {
     icon: Cpu,
+    image: '/images/1.jpg',
     name: 'Microcontroller',
     description: 'Arduino Uno/Nano',
     details: 'ATmega328P processor for real-time control'
@@ -13,12 +14,14 @@ const components = [
   {
     icon: Eye,
     name: 'IR Sensors',
+    image: '/images/2.webp',
     description: '8x Line Sensors',
     details: 'High-precision infrared sensor array'
   },
   {
     icon: Cog,
     name: 'DC Motors',
+    image: '/images/3.jpg',
     description: '2x Geared Motors',
     details: '100-300 RPM with high torque output'
   },
