@@ -34,15 +34,15 @@ export function RobotHero() {
             </p>
 
             <div className="grid grid-cols-3 gap-4 pt-4">
-              <div className="text-center p-4 bg-white/5 rounded-lg border border-red-900">
+              <div className="text-center p-4 bg-black/20 backdrop-blur-md rounded-lg border border-red-900">
                 <div className="text-3xl text-red-500">8+</div>
                 <div className="text-sm text-gray-400">Sensors</div>
               </div>
-              <div className="text-center p-4 bg-white/5 rounded-lg border border-red-900">
+              <div className="text-center p-4 bg-black/20 backdrop-blur-md rounded-lg border border-red-900">
                 <div className="text-3xl text-red-500">Fast</div>
                 <div className="text-sm text-gray-400">Response</div>
               </div>
-              <div className="text-center p-4 bg-white/5 rounded-lg border border-red-900">
+              <div className="text-center p-4 bg-black/20 backdrop-blur-md rounded-lg border border-red-900">
                 <div className="text-3xl text-red-500">High</div>
                 <div className="text-sm text-gray-400">Accuracy</div>
               </div>
